@@ -3,7 +3,12 @@ public class Triangle
 {
 	public static String determineTriangleV1 (int a, int b, int c)
 	{
+<<<<<<< HEAD
 		int abc = 1;
+=======
+		int abc = 10;
+		int xyz = 1;
+>>>>>>> hotfix
 		if ((a <= 0) || (b <= 0) || (c <= 0))
 		{
 			return "Not a triangle";
